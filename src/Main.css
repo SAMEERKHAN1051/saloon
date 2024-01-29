@@ -1,0 +1,289 @@
+:root {
+    --mainColor: #0d0c12;
+    --headerColor: #0f1c2a;
+    --secondaryMainColor: #cca876;
+    --textColor: #fff;
+    --secondaryTextColor: #dddade;
+    --mainHoverColor: #203040;
+    --fontFamily: 'Montserrat', sans-serif;
+}
+
+.service {
+    background-color: var(--headerColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 2rem;
+    gap: 26px;
+}
+
+.ServiceSection {
+    position: relative;
+    margin: -30px 14% 0 14%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+}
+
+h4 {
+    color: var(--secondaryMainColor);
+}
+
+h1 {
+    font-family: var(--fontFamily);
+    font-weight: bold;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 16px;
+}
+
+.ServiceBox {
+    background-color: var(--headerColor);
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 3rem;
+    padding: 15px 30px 30px 30px;
+    border-radius: 16px;
+    transition: ease-out 0.5s;
+}
+
+.ServiceBox:hover {
+    border: 1px solid var(--secondaryMainColor);
+    box-shadow: inset 0 -220px 0 0 var(--mainHoverColor);
+    transform: translateY(-5%);
+}
+
+.serviceBox {
+    border: 1px solid var(--secondaryMainColor);
+    background-color: var(--headerColor);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 15px 30px 30px 30px;
+    border-radius: 16px;
+    transition: ease-out 0.5s;
+
+}
+
+.serviceBox:hover {
+    box-shadow: inset 0 -220px 0 0 var(--mainHoverColor);
+    transform: translateY(-5%);
+}
+
+.serviceBox,
+.ServiceBox,
+.reviewBox i {
+    font-size: 45px;
+}
+
+.serviceicons {
+    color: var(--secondaryMainColor);
+}
+
+.bi {
+    color: var(--secondaryMainColor);
+    margin: 2px;
+}
+
+.testimonalText {
+    font-size: 18px;
+}
+
+.testimonalBox {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--headerColor);
+    padding: 18px;
+    border-radius: 16px;
+}
+
+.client {
+    display: flex;
+    gap: 16px;
+}
+
+.clientName {
+    text-align: end;
+    font-weight: bold;
+}
+
+.clientText {
+    display: flex;
+    flex-direction: column;
+}
+
+.clientName h2 {
+    transform: uppercase;
+}
+
+.clientImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 16px;
+}
+
+.clientText {
+    font-size: 20px;
+}
+
+.review {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 16px;
+}
+
+.reviewBox {
+    border: 2px dotted var(--secondaryMainColor);
+    background-color: var(--headerColor);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 30px 30px 30px;
+    border-radius: 16px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.grid-item {
+    width: 400px;
+
+}
+
+.photo-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-item img {
+    border-radius: 16px;
+
+}
+
+.card-title:hover {
+    color: var(--secondaryMainColor);
+}
+
+.BlogCard {
+    background-color: var(--headerColor);
+    color: var(--secondaryTextColor);
+    width: 446px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.blogBtn {
+    background-color: var(--secondaryMainColor);
+    color: var(--secondaryTextColor);
+    width: 100%;
+}
+
+.blogImg {
+    height: 300px;
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.cardBlog {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+
+}
+
+
+/* HOME CARD STYLE */
+
+.HomeCard {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 16px;
+}
+
+.themeCard {
+    background-color: var(--headerColor);
+    border-radius: 26px;
+    padding: 18px;
+    display: flex;
+    gap: 16px;
+    /* max-width: 480px; */
+}
+
+.cardImage {
+    max-width: 311px;
+    max-height: 200px;
+    border-radius: 26px;
+}
+
+.cardBtn {
+    padding: 8px;
+}
+
+
+
+@media screen and (max-width: 904px) {
+
+    .HomeCard,
+    .review {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .client {
+        display: block;
+        gap: 16px;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 16px;
+    }
+
+    /* HOME CARD STYLE */
+
+    .themeCard {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .service {
+        flex-direction: column;
+    }
+
+    .HomeCard,
+    .review {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .client {
+        display: block;
+        gap: 16px;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 16px;
+    }
+
+    /* HOME CARD STYLE */
+
+    .themeCard {
+        display: block;
+    }
+}
