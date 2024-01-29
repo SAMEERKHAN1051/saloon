@@ -1,6 +1,6 @@
 import HomeCard from "./Home_Card"
-export default function ServiceSection({ name, state, exp, city }) {
+export default function ServiceSection({ name, address, exp, owner , img}) {
     return (
-                <HomeCard city={city} exp={exp} name={name} state={state} />
+                <HomeCard owner={owner} exp={exp} name={name} address={address} img={img} />
     )
 }

@@ -23,6 +23,10 @@ body {
   color: var(--textColor);
 }
 
+.fa {
+  color: var(--secondaryMainColor);
+}
+
 nav {
   z-index: 1000000000000;
   display: flex;
@@ -111,65 +115,6 @@ footer p {
   margin: 8rem 0;
 }
 
-.input-field {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-.input-field input {
-  padding-left: 2.5rem;
-}
-
-input,
-textarea,
-select {
-  background-color: transparent;
-  border: 1px solid var(--secondaryMainColor);
-  border-radius: 6px;
-  padding: 16px;
-  caret-color: var(--secondaryMainColor);
-  color: var(--secondaryTextColor);
-}
-
-option {
-  background-color: var(--mainColor);
-  border-radius: 16px;
-}
-
-option:focus {
-  caret-color: var(--secondaryMainColor);
-  padding: 16px;
-  border-radius: 16px;
-}
-
-.option:hover {
-  background-color: var(--secondaryMainColor);
-}
-
-.serviceSel {
-  color: var(--secondaryTextColor);
-  padding: 20px;
-  width: 350px;
-}
-
-.serviceInp {
-  padding: 18px;
-  border-radius: 6px;
-  width: 350px;
-}
-
-.serviceBtn {
-  width: 350px;
-  padding: 19px;
-}
-
-.icons {
-  position: absolute;
-  left: 1rem;
-  width: 1rem;
-  height: 1rem;
-}
 
 
 .contactSection {
@@ -238,6 +183,49 @@ option:focus {
 }
 
 
+
+
+.inputText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.bgSection {
+  background-color: #0f1c2a15;
+  height: 100vh;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainLoginSection {
+  background-color: #0f1c2a;
+  /* border: 1px solid #fff; */
+  border-radius: 24px;
+  height: 600px;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginImg {
+  width: 100%;
+}
+
+.loginImg img {
+  width: 100%;
+  height: auto;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 960px) {
   footer {
     background-color: var(--headerColor);
@@ -268,72 +256,9 @@ option:focus {
   .AboutSection {
     display: block;
   }
-}
 
-.testimonial-slider {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
+  .footerImg {
+    height: 40%;
+  }
 
-.testimonial-slider .swiper-wrapper {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.swiper-slide {
-  flex-shrink: 0;
-  width: 100%;
-}
-
-.swiper-pagination {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.swiper-pagination .swiper-bullet {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  background-color: #ccc;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.swiper-pagination .swiper-bullet-active {
-  background-color: #333;
-}
-
-/* Optional: Add styles for testimonial content */
-.testimonial-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  text-align: center;
-  background-color: #203040;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.testimonial-thumb img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.testimonial-ratings {
-  color: #f39c12;
-  margin-bottom: 10px;
-}
-
-.client-title h4 {
-  margin-bottom: 5px;
-}
-
-.client-title p {
-  font-size: 14px;
-  color: #999;
 }

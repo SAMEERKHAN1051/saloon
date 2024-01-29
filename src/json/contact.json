@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "type": "Location",
+      "icon": "bi bi-geo-alt",
+      "text": "Our Location",
+      "address": "123 Main St, Los Angeles, California"
+    },
+    {
+      "id": 2,
+      "type": "Phone",
+      "icon": "bi bi-phone",
+      "text": "Phone Number",
+      "number": "+1 (123) 456-7890"
+    },
+    {
+      "id": 3,
+      "type": "Email",
+      "icon": "bi bi-envelope",
+      "text": "Email Address",
+      "email": "info@hairhub.com"
+    }
+  ]

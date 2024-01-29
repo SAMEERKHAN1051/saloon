@@ -73,7 +73,9 @@ export default function Navbar() {
                     <ul className="navbar-nav">
                         {linkObj}
                         <li className="nav-item">
-                            <button className="themeBtn">Login in</button>
+                            <NavLink to = "/login">
+                                <button className="themeBtn">Login in</button>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>

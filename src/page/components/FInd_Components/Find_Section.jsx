@@ -1,6 +1,6 @@
 import HomeCard from "../Home_Components/Home_Card"
-export default function AboutSection( {name, state, exp,city} ) {
+export default function AboutSection( {name, address, exp, owner , img} ) {
     return (
-        <HomeCard state={state} city={city} name={name} exp={exp}p />
+        <HomeCard address={address} owner={owner} name={name} exp={exp} img={img} />
     )
 }

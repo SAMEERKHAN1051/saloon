@@ -6,6 +6,7 @@ import Service from "./page/Service";
 import Home from "./page/Home";
 import Footer from "./page/Footer";
 import Navbar from "./page/Navbar";
+import Login from "./page/Login"
 import './Main.css'
 
 import React from "react";
@@ -24,6 +25,7 @@ function App() {
         <Route path="/service" element={<Service/>} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/Login" element={<Login />} />
       </Routes>
       <Footer />
     </BrowserRouter>

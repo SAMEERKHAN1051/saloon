@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Glamour Cuts",
+        "owner_name": "Emily Johnson",
+        "state": "California",
+        "city": "Los Angeles",
+        "address": "123 Main St, Los Angeles, California",
+        "experience": "10 years",
+        "img_url": "https://images.unsplash.com/photo-1556760544-74068565f05c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 2,
+        "name": "Style Haven",
+        "owner_name": "Michael Smith",
+        "state": "New York",
+        "city": "New York City",
+        "address": "456 Broadway, New York City, New York",
+        "experience": "8 years",
+        "img_url": "https://images.unsplash.com/photo-1664549760921-2198b054a592?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 3,
+        "name": "Chic Trends",
+        "owner_name": "Jessica Brown",
+        "state": "Texas",
+        "city": "Houston",
+        "address": "789 Oak St, Houston, Texas",
+        "experience": "5 years",
+        "img_url": "https://images.unsplash.com/photo-1559185590-879c66a55254?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 4,
+        "name": "Elegance Studio",
+        "owner_name": "David Wilson",
+        "state": "Florida",
+        "city": "Miami",
+        "address": "101 Palm Ave, Miami, Florida",
+        "experience": "12 years",
+        "img_url": "https://images.unsplash.com/photo-1584956013847-b8f8b4a8d637?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 5,
+        "name": "Cutting Edge",
+        "owner_name": "Sarah Martinez",
+        "state": "Illinois",
+        "city": "Chicago",
+        "address": "555 Elm St, Chicago, Illinois",
+        "experience": "15 years",
+        "img_url": "https://images.unsplash.com/photo-1606738132449-e3590ddb6793?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 6,
+        "name": "Beauty Lounge",
+        "owner_name": "Daniel Adams",
+        "state": "Georgia",
+        "city": "Atlanta",
+        "address": "999 Peachtree St, Atlanta, Georgia",
+        "experience": "9 years",
+        "img_url": "https://images.unsplash.com/photo-1523459178261-028135da2714?q=80&w=2066&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 7,
+        "name": "Hair Harmony",
+        "owner_name": "Rachel Lee",
+        "state": "Ohio",
+        "city": "Columbus",
+        "address": "333 Maple St, Columbus, Ohio",
+        "experience": "7 years",
+        "img_url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 8,
+        "name": "Trendy Salon",
+        "owner_name": "Jason Taylor",
+        "state": "Washington",
+        "city": "Seattle",
+        "address": "777 Pine St, Seattle, Washington",
+        "experience": "11 years",
+        "img_url": "https://images.unsplash.com/photo-1630595633877-9918ee257288?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 9,
+        "name": "The Classic Cut",
+        "owner_name": "Amanda White",
+        "state": "Massachusetts",
+        "city": "Boston",
+        "address": "888 Oak St, Boston, Massachusetts",
+        "experience": "13 years",
+        "img_url": "https://images.unsplash.com/flagged/photo-1575277942704-3b02a862e5f6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 10,
+        "name": "Urban Chic",
+        "owner_name": "John Anderson",
+        "state": "Colorado",
+        "city": "Denver",
+        "address": "666 Spruce St, Denver, Colorado",
+        "experience": "6 years",
+        "img_url": "https://images.unsplash.com/photo-1559599076-9c61d8e1b77c?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]

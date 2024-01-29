@@ -16,7 +16,7 @@ export default function Carousels() {
   // ]
   // const image = imageObj.map((x)=> <div className="carousel-item active"> <img className="d-block w-100" key={x.id} src={x.imgUrl} alt={x.id} /> </div>)
   const style = {
-    height : "1000px"
+    maxHeight: "950px"
   }
   return (
     <div>

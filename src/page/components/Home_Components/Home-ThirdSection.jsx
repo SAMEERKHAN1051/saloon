@@ -1,4 +1,16 @@
+import { useState } from "react"
+import data from "../../../json/work.json"
 export default function ThirdSection() {
+
+    const [workValue] = useState(data)
+
+
+    const serviceBox = workValue.map((x) => <div className="serviceBox" key={x.id}>
+        <p><i className={x.icon}></i></p>
+        <h3>Step {x.id}</h3>
+        <h5>{x.title}</h5>
+    </div>)
+
     return (
         <section>
             <div>
@@ -7,26 +19,7 @@ export default function ThirdSection() {
                 <p>Start your journey by exploring our wide range of salon and parlour services. From haircuts to facials, and nails to massages, we have it all.</p>
             </div>
             <div className="box">
-                <div className="serviceBox">
-                    <p><i className="bi bi-person-fill"></i></p>
-                    <h1>Step 1</h1>
-                    <h5>Explore Our Service</h5>
-                </div>
-                <div className="serviceBox">
-                    <p><i className="bi bi-person-fill"></i></p>
-                    <h1>Step 1</h1>
-                    <h5>Explore Our Service</h5>
-                </div>
-                <div className="serviceBox">
-                    <p><i className="bi bi-person-fill"></i></p>
-                    <h1>Step 1</h1>
-                    <h5>Explore Our Service</h5>
-                </div>
-                <div className="serviceBox">
-                    <p><i className="bi bi-person-fill"></i></p>
-                    <h1>Step 1</h1>
-                    <h5>Explore Our Service</h5>
-                </div>
+                {serviceBox}
             </div>
         </section>
     )
