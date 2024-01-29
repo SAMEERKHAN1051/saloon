@@ -183,7 +183,10 @@ footer p {
 }
 
 
-
+.popup{
+  
+  display: flex;
+}
 
 .inputText {
   display: flex;
@@ -193,23 +196,29 @@ footer p {
 }
 
 .bgSection {
-  background-color: #0f1c2a15;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(104, 128, 153 , 0.3);
   height: 100vh;
+  width: 100%;
   z-index: 10000;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 3000ms ease 1s;
 }
 
 .mainLoginSection {
   background-color: #0f1c2a;
-  /* border: 1px solid #fff; */
   border-radius: 24px;
   height: 600px;
-  max-width: 1400px;
+  padding: 24px;
+  max-width: 1100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 16px;
+  margin: 16px;
 }
 
 .loginImg {
@@ -218,13 +227,39 @@ footer p {
 
 .loginImg img {
   width: 100%;
-  height: auto;
+  height: 560px;
+  border-radius: 24px;
 }
 
 .loginForm {
   display: flex;
   flex-direction: column;
+  gap: 18px;
 }
+.ForgotPassword {
+  display: flex;
+  justify-content: right;
+  color: var(--secondaryMainColor);
+  font-weight: bold;
+}
+
+.otherText {
+  margin-top: 8px;
+  text-align: center;
+}
+.otherText h5,span{
+  color: var(--secondaryMainColor);
+}
+.closeBtn{
+  border-radius: 100%;
+  padding: 8px 16px;
+  font-size: 24px;
+  position: relative;
+  margin-left: 100%;
+  margin-top: -54px;
+  /* transition: all 300ms ease 1s; */
+}
+
 
 @media screen and (max-width: 960px) {
   footer {
@@ -260,5 +295,12 @@ footer p {
   .footerImg {
     height: 40%;
   }
-
+  .loginImg {
+   display: none;
+  
+  }
+  .mainLoginSection {
+    margin: 24px;
+  }
+  
 }

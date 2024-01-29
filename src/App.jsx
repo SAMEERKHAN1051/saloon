@@ -8,11 +8,7 @@ import Footer from "./page/Footer";
 import Navbar from "./page/Navbar";
 import Login from "./page/Login"
 import './Main.css'
-
-import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-
 function App() {
 
   return (
@@ -22,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/find" element={<Find />} />
         <Route path="/about" element={<About />} />
-        <Route path="/service" element={<Service/>} />
+        <Route path="/service" element={<Service />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/Login" element={<Login />} />
