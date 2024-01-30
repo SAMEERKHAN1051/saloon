@@ -30,41 +30,45 @@ export default function Home() {
     }
     const [saloon] = useState(data)
     const onlyForSaloon = saloon.slice(0, 4)
-    const findSection = onlyForSaloon.map((x) => <ServiceSection key={x.id} owner={x.owner_name} exp={x.experience} name={x.name}  address={x.address} img={x.img_url} />)
+    const findSection = onlyForSaloon.map((x) => <ServiceSection key={x.id} owner={x.owner_name} exp={x.experience} name={x.name} address={x.address} img={x.img_url} />)
     const option = saloon.map((x) => <option key={x.id} value={x.state}>{x.state}</option>)
     return (
         <div>
             <Carousel />
             <div className="ServiceSection">
-                <form className="service" onClick={searchBtn} >
-                    <div className="serviceSel">
-                        <select
-                            name="state"
-                            onChange={serviceInput}
-                            value={saloonInfo.state}
-                        >
-                            <option
-                                value="Select Area"
-                            >Select Area</option>
-                            {option}
-                        </select>
+                <div className="formSection">
+                    <form className="service" onClick={searchBtn} >
+                        <div className="serviceSel">
+                            <select
+                                name="state"
+                                onChange={serviceInput}
+                                value={saloonInfo.state}
+                            >
+                                <option
+                                    value="Select Area"
+                                >Select Area</option>
+                                {option}
+                            </select>
+                        </div>
+
+                        <div className="input-field">
+                            <i className="icons fa-solid fa-user"></i>
+                            <input
+                                className="serviceInp"
+                                type="text"
+                                name="parlour"
+                                id=""
+                                placeholder="Parlour Name"
+                                value={saloonInfo.parlour}
+                                onChange={serviceInput} />
+                        </div>
+                        <button className="themeBtn serviceBtn" ><i className="fa-solid fa-magnifying-glass"></i> Search</button>
+                    </form>
+                    <div className="HomeCard">
+                        {findSection}
                     </div>
-                    <div className="input-field">
-                        <i className="icons fa-solid fa-user"></i>
-                        <input
-                            className="serviceInp"
-                            type="text"
-                            name="parlour"
-                            id=""
-                            placeholder="Parlour Name"
-                            value={saloonInfo.parlour}
-                            onChange={serviceInput} />
-                    </div>
-                    <button className="themeBtn serviceBtn" ><i className="fa-solid fa-magnifying-glass"></i> Search</button>
-                </form>
-                <div className="HomeCard">
-                    {findSection}
                 </div>
+
                 <ThirdSection />
                 <ForthSection />
                 <FifthSection />

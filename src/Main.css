@@ -86,6 +86,12 @@ option {
     border-radius: 16px;
 }
 
+.formSection{
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
 
 
 /* Service Section  */
@@ -108,7 +114,7 @@ option {
 .box {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    gap: 16px;
+    gap: 8px;
 }
 
 .ServiceBox {
@@ -383,13 +389,12 @@ option {
     .box {
         display: grid;
         grid-template-columns: repeat(1, auto);
-        gap: 16px;
+        gap: 2px;
     }
 
     /* HOME CARD STYLE */
 
     .HomeCard {
-        border: 1px solid #fff;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, auto);
@@ -411,8 +416,7 @@ option {
         flex-direction: column;
     }
 
-    .HomeCard,
-    .review {
+    .HomeCard{
         grid-template-columns: repeat(1, auto);
     }
 
@@ -424,7 +428,7 @@ option {
     .box {
         display: grid;
         grid-template-columns: repeat(1, auto);
-        gap: 16px;
+        gap: 1px;
     }
 
     /* HOME CARD STYLE */
@@ -439,6 +443,25 @@ option {
         height: auto;
         border-radius: 26px;
     }
+    .ServiceSection {
+        position: relative;
+        margin: -30px 3% 0 3%;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        /* gap: 12rem; */
+    }
+    .review {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 16px;
+    }
+    .formSection{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    
 }
 
 @media screen and (max-width: 1300px) {
