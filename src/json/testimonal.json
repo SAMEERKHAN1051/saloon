@@ -4,41 +4,41 @@
         "name": "Emma Thompson",
         "occupation": "Regular Customer",
         "testimonial": "I've been coming to this salon for years, and I'm always impressed by the quality of service. The stylists are incredibly skilled and friendly, and the atmosphere is so relaxing. I wouldn't go anywhere else!",
-        "image": "https://images.unsplash.com/photo-1706391524146-f55e9619656b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://images.unsplash.com/photo-1705899354898-bbc30144e432?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "id": 2,
         "name": "Michael Johnson",
         "occupation": "First-time Visitor",
         "testimonial": "I recently visited this salon for the first time, and I was blown away by the experience. The staff were welcoming and attentive, and my stylist listened to exactly what I wanted and delivered beyond my expectations. I'll definitely be returning!",
-        "image": "https://images.unsplash.com/photo-1706391524146-f55e9619656b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://images.unsplash.com/photo-1706565026381-29cd21eb9a7c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "id": 3,
         "name": "Sophia Martinez",
         "occupation": "Bride-to-be",
         "testimonial": "As a bride-to-be, I wanted everything to be perfect for my special day, including my hair and makeup. The team at this salon went above and beyond to make sure I looked and felt stunning. I couldn't have asked for a better experience!",
-        "image": "https://images.unsplash.com/photo-1706391524146-f55e9619656b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://images.unsplash.com/photo-1706523964433-84c91f9086ca?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "id": 4,
         "name": "Olivia Wilson",
         "occupation": "Long-time Client",
         "testimonial": "I've been a loyal client of this salon for over a decade, and I continue to be amazed by their talent and dedication. Whether it's a simple trim or a complete makeover, they always deliver exceptional results. The staff truly cares about their clients' satisfaction, and it shows!",
-        "image": "https://images.unsplash.com/photo-1706391524146-f55e9619656b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://images.unsplash.com/photo-1706354924659-582cec69ce3b?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "id": 5,
         "name": "Daniel Brown",
         "occupation": "Groom",
         "testimonial": "I visited this salon for my wedding day grooming, and I couldn't have been happier with the experience. The staff was professional and attentive, and they made sure every detail was perfect. Thanks to them, I looked my best on the most important day of my life!",
-        "image": "https://images.unsplash.com/photo-1706391524146-f55e9619656b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://images.unsplash.com/photo-1705760711001-a26c64a05560?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "id": 6,
         "name": "Sophie Adams",
         "occupation": "Fashion Blogger",
         "testimonial": "As a fashion blogger, my appearance is crucial, and I trust this salon to keep my hair looking fabulous. Their stylists are always up-to-date with the latest trends and techniques, and they consistently exceed my expectations. I highly recommend them to anyone looking for top-notch hair care!",
-        "image": "https://images.unsplash.com/photo-1706391524146-f55e9619656b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://images.unsplash.com/photo-1706373193792-52fc0b8b22e3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
 ]
