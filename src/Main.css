@@ -86,7 +86,7 @@ option {
     border-radius: 16px;
 }
 
-.formSection{
+.formSection {
     display: flex;
     flex-direction: column;
     gap: 8rem;
@@ -175,74 +175,54 @@ option {
 
 
 
-.testimonial-slider {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-.testimonial-slider .swiper-wrapper {
+.testimonal {
     display: flex;
-    transition: transform 0.5s ease;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    cursor: grab;
+    gap: 2rem;
+    margin: 0 -20%;
 }
 
-.swiper-slide {
-    flex-shrink: 0;
+.testimonalCard {
+    background-color: var(--headerColor);
+    flex: 0 0 auto;
+    max-width: 800px;
+    scroll-snap-align: center;
+    border-radius: 24px;
+    user-select: none;
+}
+
+.testimonalCard img {
+    padding: 16px;
+    border-radius: 34px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cardImage {
     width: 100%;
 }
 
-.swiper-pagination {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.swiper-pagination .swiper-bullet {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    background-color: #ccc;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.swiper-pagination .swiper-bullet-active {
-    background-color: #333;
-}
-
-/* Optional: Add styles for testimonial content */
-.testimonial-wrapper {
+.cardMainContent {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    text-align: center;
-    background-color: #203040;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.testimonial-thumb img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+.cardUserContent {
+    text-align: end;
+    padding: 16px;
 }
 
-.testimonial-ratings {
-    color: #f39c12;
-    margin-bottom: 10px;
+.testimonalCard-content {
+    padding: 2rem;
+    width: 100%;
 }
 
-.client-title h4 {
-    margin-bottom: 5px;
+.testimonalStar {
+    color: var(--secondaryMainColor);
+    margin-bottom: 16px;
 }
-
-.client-title p {
-    font-size: 14px;
-    color: #999;
-}
-
 
 /* Review Section  */
 
@@ -389,7 +369,6 @@ option {
     .box {
         display: grid;
         grid-template-columns: repeat(1, auto);
-        gap: 2px;
     }
 
     /* HOME CARD STYLE */
@@ -409,6 +388,34 @@ option {
         margin-top: 16px;
 
     }
+
+
+
+    .testimonalCard img {
+        padding: 16px;
+        border-radius: 34px;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .testimonal {
+        gap: 1rem;
+    }
+
+    .testimonalCard {
+        max-width: 600px;
+    }
+
+    .cardUserContent {
+        text-align: end;
+        padding: 16px;
+    }
+
+    .testimonalCard-content {
+        padding: 1.5rem;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -416,7 +423,7 @@ option {
         flex-direction: column;
     }
 
-    .HomeCard{
+    .HomeCard {
         grid-template-columns: repeat(1, auto);
     }
 
@@ -443,6 +450,7 @@ option {
         height: auto;
         border-radius: 26px;
     }
+
     .ServiceSection {
         position: relative;
         margin: -30px 3% 0 3%;
@@ -451,17 +459,41 @@ option {
         flex-direction: column;
         /* gap: 12rem; */
     }
+
     .review {
         display: grid;
         grid-template-columns: repeat(1, auto);
         gap: 16px;
     }
-    .formSection{
+
+    .formSection {
         display: flex;
         flex-direction: column;
         gap: 4rem;
     }
-    
+
+    .cardMainContent {
+        display: block;
+    }
+
+    .testimonal {
+        gap: 1rem;
+    }
+
+    .testimonalCard {
+        max-width: 500px;
+    }
+
+    .cardUserContent {
+        text-align: end;
+        /* padding: 16px; */
+    }
+
+    .testimonalCard-content {
+        padding: 0.5rem 1.5rem;
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 1300px) {

@@ -89,6 +89,12 @@ export default function CollegeSection() {
                                         <img className="img-fluid" src={imgObj[7].imgUrl} alt="Image1" />
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-6 pb-4">
+                        <div className="galary-area-1">
+                            <div className="row">
                                 <div className="col-lg-12 pb-4">
                                     <div className="photo-item">
                                         <img className="img-fluid" src={imgObj[5].imgUrl} alt="Image1" />
