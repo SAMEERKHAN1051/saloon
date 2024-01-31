@@ -114,7 +114,7 @@ option {
 .box {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    gap: 8px;
+    gap: 16px;
 }
 
 .ServiceBox {
@@ -140,7 +140,7 @@ option {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     padding: 15px 30px 30px 30px;
     border-radius: 16px;
     transition: ease-out 0.5s;
@@ -428,7 +428,7 @@ option {
     .box {
         display: grid;
         grid-template-columns: repeat(1, auto);
-        gap: 1px;
+        gap: 16px;
     }
 
     /* HOME CARD STYLE */

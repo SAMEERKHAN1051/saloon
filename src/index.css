@@ -73,7 +73,7 @@ ul {
 
 footer {
   background-color: var(--headerColor);
-  clip-path: polygon(8% 0%, 100% 0%, 88% 100%, 0% 100%);
+  clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
   margin-bottom: -16px;
 }
 
@@ -98,7 +98,9 @@ footer p {
 
 .footerImg {
   /* margin-top: -10%; */
-  height: 50%;
+  /* height: 50%; */
+  height: 200px;
+
 }
 
 .logosection {
@@ -307,7 +309,7 @@ span {
   }
 
   .footerImg {
-    height: 70%;
+    height: 300px;
   }
 
   .contactSection {
@@ -339,7 +341,7 @@ span {
   }
 
   .footerImg {
-    height: 40%;
+    height: 200px;
   }
 
   .loginImg {

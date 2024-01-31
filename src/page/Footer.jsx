@@ -9,7 +9,7 @@ export default function Footer() {
       </section>
 
       <section className="">
-        <div className="container text-md-start mt-5">
+        <div className="container text-md-start mt-0 "  >
           <div className="row">
             <div className="col-md-12 col-lg-4 col-xl-4 mx-auto p-2">
               <img className="footerImg" src="/assets/logo.png" alt="" />
