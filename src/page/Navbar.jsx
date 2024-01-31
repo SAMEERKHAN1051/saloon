@@ -40,7 +40,7 @@ export default function Navbar() {
     return (
         <header>
 
-            <nav className="navbar navbar-expand-lg nav sticky-top">
+            <nav className="navbar navbar-expand-lg nav fixed-top">
                 <div className="container-fluid" >
                     <Link to="/" className="navbar-brand mx-5 logo">
                         <img style={{ height: 75 }} src="assets/logo.png" alt="" />
