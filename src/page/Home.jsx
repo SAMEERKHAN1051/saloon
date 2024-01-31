@@ -68,11 +68,13 @@ export default function Home() {
                         {findSection}
                     </div>
                 </div>
-
                 <ThirdSection />
-                <ForthSection />
-                <FifthSection />
-                <CollegeSection />
+                <br />
+            </div>
+            <ForthSection />
+            <div className="SecondServiceSection">
+            <FifthSection />
+            <CollegeSection />
             </div>
         </div >
     )
