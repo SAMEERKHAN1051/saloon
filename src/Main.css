@@ -189,7 +189,7 @@ option {
     scroll-snap-type: x mandatory;
     cursor: grab;
     gap: 2rem;
-    margin: 0 0;
+    margin: 0 16px;
 }
 
 .testimonalCard {
@@ -489,7 +489,8 @@ option {
     }
 
     .testimonalCard {
-        max-width: 500px;
+        max-width: 450px;
+        /* max-height: 750px; */
     }
 
     .cardUserContent {
@@ -501,12 +502,12 @@ option {
         padding: 16px;
         border-radius: 34px;
         width: 100%;
-        height: 450px;
+        height: 300px;
         object-fit: cover;
     }
 
     .testimonalCard-content {
-        padding: 0.5rem 1.5rem;
+        padding: 0.1rem 1.5rem;
         width: 100%;
     }
 

@@ -44,15 +44,25 @@ ul {
   color: var(--secondaryTextColor);
   font-weight: bold;
   transition: all .1s ease 0ms;
+
+}
+.nav-item::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: var(--secondaryMainColor);
+  display: block;
+  color: var(--secondaryMainColor);
+  transition: 0.5s;
 }
 
-.nav-link:hover {
-  border-bottom: 2px solid;
+.nav-item:hover::after {
+  width: 100%;
   color: var(--secondaryMainColor);
 }
 
-.active {
-  color: #fff;
+.nav-link:hover {
+   color: var(--secondaryMainColor);
 }
 
 
