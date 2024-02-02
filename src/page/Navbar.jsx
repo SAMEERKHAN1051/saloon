@@ -39,10 +39,9 @@ export default function Navbar() {
 
     return (
         <header>
-
             <nav className="navbar navbar-expand-lg nav fixed-top">
                 <div className="container-fluid" >
-                    <Link to="/" className="navbar-brand mx-5 logo">
+                    <Link to="/" className="navbar-brand logo">
                         <img style={{ height: 75 }} src="assets/logo.png" alt="" />
                     </Link>
                     <button
@@ -60,7 +59,7 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse justify-content-center" id="navbarNav" style={navStyle}>
                         <ul className="navbar-nav">
                             {linkObj}
-                            <li className="nav-item">
+                            <li>
                                 <button className="themeBtn" onClick={loginBtn} >Login in</button>
                             </li>
                         </ul>

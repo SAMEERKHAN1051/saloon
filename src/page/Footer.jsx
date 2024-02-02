@@ -76,9 +76,9 @@ export default function Footer() {
           </div>
         </div>
       </section>
-      <p className="text-center p-4">
+      <p className="text-center p-4 footerLink">
         © 2021 Copyright:
-        <Link className="text-reset fw-bold" to="https://codeAugment.com/"> CodeAugment.com</Link>
+        <Link className="text-reset fw-bold " to="https://codeAugment.com/"> CodeAugment.com</Link>
       </p>
     </footer>
   )

@@ -7,6 +7,7 @@ import FifthSection from './components/Home_Components/Home_FifthSection'
 import CollegeSection from './components/Home_Components/Home_CollegeSection'
 import { useState } from "react"
 export default function Home() {
+ 
 
     const [saloonInfo, setSaloonInfo] = useState({
         state: "",
@@ -32,10 +33,13 @@ export default function Home() {
     const onlyForSaloon = saloon.slice(0, 4)
     const findSection = onlyForSaloon.map((x) => <ServiceSection key={x.id} owner={x.owner_name} exp={x.experience} name={x.name} address={x.address} img={x.img_url} />)
     const option = saloon.map((x) => <option key={x.id} value={x.state}>{x.state}</option>)
+
+
     return (
         <div>
+
             <Carousel />
-            <div className="ServiceSection">
+            <div className="HomeServiceSection">
                 <div className="formSection">
                     <form className="service" onClick={searchBtn} >
                         <div className="serviceSel">
@@ -73,8 +77,8 @@ export default function Home() {
             </div>
             <ForthSection />
             <div className="SecondServiceSection">
-            <FifthSection />
-            <CollegeSection />
+                <FifthSection />
+                <CollegeSection />
             </div>
         </div >
     )
