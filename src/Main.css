@@ -147,8 +147,8 @@ option {
 }
 
 .ServiceBox:hover {
-    border: 1px solid var(--secondaryMainColor);
     box-shadow: inset 0 -220px 0 0 var(--mainHoverColor);
+    outline: 1px solid var(--secondaryMainColor);
     transform: translateY(-5%);
 }
 
