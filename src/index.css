@@ -18,6 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+.contactInput{
+  margin: 12px 0px 20px 0;
+}
+
 .loaderMain {
   background-color: #212121;
   width: 100%;

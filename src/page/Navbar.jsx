@@ -60,7 +60,7 @@ export default function Navbar() {
                         <ul className="navbar-nav">
                             {linkObj}
                             <li>
-                                <button className="themeBtn" onClick={loginBtn} >Login in</button>
+                                <button className="themeBtn" onClick={loginBtn} >Login</button>
                             </li>
                         </ul>
                     </div>

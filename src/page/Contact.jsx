@@ -2,7 +2,7 @@ import { useState } from "react";
 import ContactSection from "./components/Contact_Components/Contact_Section"
 
 const color = {
-    color: "#cca876"
+    color: "#cca876",
 }
 
 export default function Contact() {
@@ -22,7 +22,7 @@ export default function Contact() {
             }
         })
     }
-    function formSubmit(event){
+    function formSubmit(event) {
 
         event.preventDefault()
         console.log(formInput);
@@ -49,6 +49,7 @@ export default function Contact() {
                                     <div className="row">
                                         <label htmlFor="Name">Name <span style={color}>*</span></label>
                                         <input
+                                            className="contactInput"
                                             type="text"
                                             name="Name"
                                             id=""
@@ -59,6 +60,7 @@ export default function Contact() {
                                     <div className="row">
                                         <label htmlFor="email">Email <span style={color}>*</span></label>
                                         <input
+                                            className="contactInput"
                                             type="email"
                                             name="email"
                                             id=""
@@ -66,10 +68,10 @@ export default function Contact() {
                                             value={formInput.email}
                                             required />
                                     </div>
-                                    <br />
                                 </div>
                                 <label htmlFor="Name">Leave A Messeage For Us <span style={color}>*</span></label>
                                 <textarea
+                                    className="contactInput"
                                     onChange={formValue}
                                     name="message"
                                     value={formInput.message}
