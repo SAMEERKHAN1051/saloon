@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "10 Trendy Hairstyles for Spring",
+        "img": "https://example.com/images/spring_hairstyles.jpg",
+        "description": "Discover the hottest hairstyles for the spring season. From chic bobs to elegant updos, we've got you covered!"
+    },
+    {
+        "id": 2,
+        "title": "How to Achieve the Perfect Beach Waves",
+        "img": "https://example.com/images/beach_waves.jpg",
+        "description": "Learn how to create effortless beach waves that will give you that sun-kissed, summer look all year round."
+    },
+    {
+        "id": 3,
+        "title": "Essential Hair Care Tips for Healthy Locks",
+        "img": "https://example.com/images/hair_care_tips.jpg",
+        "description": "Maintain healthy and beautiful hair with our expert hair care tips. Say goodbye to dryness, split ends, and frizz!"
+    },
+    {
+        "id": 4,
+        "title": "10 Easy Hairstyles for Busy Mornings",
+        "img": "https://example.com/images/busy_morning_hairstyles.jpg",
+        "description": "Get ready in a flash with these quick and easy hairstyles perfect for busy mornings. Look stylish without the hassle!"
+    },
+    {
+        "id": 5,
+        "title": "The Ultimate Guide to Hair Coloring Techniques",
+        "img": "https://example.com/images/hair_coloring_guide.jpg",
+        "description": "Explore the latest hair coloring techniques and trends. From balayage to ombre, learn how to achieve stunning hair color transformations."
+    },
+    {
+        "id": 6,
+        "title": "Tips for Choosing the Right Haircut for Your Face Shape",
+        "img": "https://example.com/images/face_shape_haircut.jpg",
+        "description": "Find the perfect haircut that complements your face shape. Discover expert tips and tricks to enhance your features with the right hairstyle."
+    },
+    {
+        "id": 7,
+        "title": "Essential Hair Styling Tools Every Salon Should Have",
+        "img": "https://example.com/images/hair_styling_tools.jpg",
+        "description": "Equip your salon with the must-have hair styling tools for creating fabulous hairstyles. From blow dryers to curling irons, we've got you covered!"
+    }
+]

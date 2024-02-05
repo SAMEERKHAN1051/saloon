@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
+import data from '../../../json/blog.json'
+import { useState } from "react";
 
 export default function BlogSection() {
+
+    const [blogData] = useState(data)
 
     const imgData = [
         {
@@ -34,12 +38,14 @@ export default function BlogSection() {
             description: "Some quick example text to build on the card title and make up the bulk of the card's content."
         },
     ]
-    const card = imgData.map((x) => <div key={x.id} className="BlogCard">
+    const card = data.map((x) => <div key={x.id} className="BlogCard">
         <img src={x.img} className="blogImg" alt="..." />
         <div className="body">
             <h4 className="title">{x.title}</h4>
             <p className="text">{x.description}</p>
-            <Link href="#" className="btn blogBtn">Go somewhere</Link>
+            <Link href="#">
+                <button className="themeBtn blogBtn">Go somewhere</button>
+            </Link>
         </div>
     </div>)
     return (

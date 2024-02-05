@@ -305,8 +305,6 @@ option {
 }
 
 .blogBtn {
-    background-color: var(--secondaryMainColor);
-    color: var(--secondaryTextColor);
     width: 100%;
 }
 
@@ -322,7 +320,6 @@ option {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
-
 }
 
 

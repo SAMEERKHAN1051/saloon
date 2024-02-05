@@ -218,11 +218,15 @@ footer p {
 }
 
 .accordion-button {
-  background-color: var(--headerColor);
   border: 2px dotted var(--secondaryMainColor);
   color: var(--secondaryTextColor);
   font-weight: bold;
   border-radius: 24px;
+}
+
+.accordion-button:focus {
+
+  border: none;
 }
 
 .accordion-body {
@@ -231,18 +235,10 @@ footer p {
   color: var(--secondaryTextColor);
 }
 
-.accordion-button:active {
-  background-color: var(--secondaryMainColor);
-}
-
 .accordion-button:focus {
   background-color: var(--secondaryMainColor);
   color: var(--secondaryTextColor);
   border: none;
-}
-
-.accordion-item:focus {
-  background-color: var(--secondaryMainColor);
 }
 
 .accordion,
@@ -258,6 +254,13 @@ footer p {
 
 .accordion {
   max-width: 700px;
+  --bs-accordion-bg: var(--headerColor);
+  --bs-accordion-active-color: var(--secondaryTextColor);
+  --bs-accordion-active-bg: var(--secondaryMainColor);
+  --bs-accordion-btn-focus-box-shadow: var(--mainHoverColor);
+  --bs-accordion-btn-icon: url(../public/assets/1.png);
+  --bs-accordion-btn-active-icon: url(../public/assets/2.png);
+
 }
 
 
