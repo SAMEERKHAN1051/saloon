@@ -2,43 +2,43 @@
     {
         "id": 1,
         "title": "10 Trendy Hairstyles for Spring",
-        "img": "https://example.com/images/spring_hairstyles.jpg",
+        "img": "https://images.unsplash.com/photo-1556229165-8aa0ceaa93a7?q=80&w=2087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Discover the hottest hairstyles for the spring season. From chic bobs to elegant updos, we've got you covered!"
     },
     {
         "id": 2,
         "title": "How to Achieve the Perfect Beach Waves",
-        "img": "https://example.com/images/beach_waves.jpg",
+        "img": "https://images.unsplash.com/photo-1554774853-b415df9eeb92?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Learn how to create effortless beach waves that will give you that sun-kissed, summer look all year round."
     },
     {
         "id": 3,
         "title": "Essential Hair Care Tips for Healthy Locks",
-        "img": "https://example.com/images/hair_care_tips.jpg",
+        "img": "https://images.unsplash.com/photo-1557353425-c6646a8809ce?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Maintain healthy and beautiful hair with our expert hair care tips. Say goodbye to dryness, split ends, and frizz!"
     },
     {
         "id": 4,
         "title": "10 Easy Hairstyles for Busy Mornings",
-        "img": "https://example.com/images/busy_morning_hairstyles.jpg",
+        "img": "https://images.unsplash.com/photo-1502323777036-f29e3972d82f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Get ready in a flash with these quick and easy hairstyles perfect for busy mornings. Look stylish without the hassle!"
     },
     {
         "id": 5,
         "title": "The Ultimate Guide to Hair Coloring Techniques",
-        "img": "https://example.com/images/hair_coloring_guide.jpg",
+        "img": "https://images.unsplash.com/photo-1485396003708-e7a7ad32484f?q=80&w=2117&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Explore the latest hair coloring techniques and trends. From balayage to ombre, learn how to achieve stunning hair color transformations."
     },
     {
         "id": 6,
         "title": "Tips for Choosing the Right Haircut for Your Face Shape",
-        "img": "https://example.com/images/face_shape_haircut.jpg",
+        "img": "https://images.unsplash.com/photo-1456327102063-fb5054efe647?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Find the perfect haircut that complements your face shape. Discover expert tips and tricks to enhance your features with the right hairstyle."
     },
     {
         "id": 7,
         "title": "Essential Hair Styling Tools Every Salon Should Have",
-        "img": "https://example.com/images/hair_styling_tools.jpg",
+        "img": "https://images.unsplash.com/photo-1512236393941-3d6da97e56bc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "description": "Equip your salon with the must-have hair styling tools for creating fabulous hairstyles. From blow dryers to curling irons, we've got you covered!"
     }
 ]
