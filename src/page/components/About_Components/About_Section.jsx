@@ -4,7 +4,7 @@ export default function AboutSection() {
             <div className="AboutSection">
                 <div className="col">
                     <div className="imgSection">
-                        <img className="contactImage" src="https://images.unsplash.com/photo-1593702295094-aea22597af65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                        <img className="contactImage" src="https://images.unsplash.com/photo-1593269233759-427ba69acca5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
                     </div>
                     <div className="col">
@@ -86,7 +86,7 @@ export default function AboutSection() {
                 </div>
                 <br />
                 <div className="imgSection">
-                    <img className="contactImage" src="https://images.unsplash.com/photo-1593702295094-aea22597af65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                    <img className="contactImage" src="https://images.unsplash.com/photo-1593269244684-3f9c90ddf5a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                 </div>
             </div>
 
