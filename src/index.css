@@ -259,7 +259,7 @@ footer p {
   --bs-accordion-active-bg: var(--secondaryMainColor);
   --bs-accordion-btn-focus-box-shadow: var(--mainHoverColor);
   --bs-accordion-btn-icon: url(../public/assets/1.png);
-  --bs-accordion-btn-active-icon: url(../public/assets/2.png);
+  --bs-accordion-btn-active-icon: url(../public/assets/1.png);
 
 }
 
