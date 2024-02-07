@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import data from '../../../json/blog.json'
-import { useState } from "react";
 
 export default function BlogSection() {
     const card = data.map((x) => <div key={x.id} className="BlogCard">
